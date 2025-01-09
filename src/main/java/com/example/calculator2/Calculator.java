@@ -46,7 +46,7 @@ public class Calculator {
 
         }
 
-
+        //연산결과삭제
         public void removeFirstResult() {
                 if (!resultList.isEmpty()) {
                         System.out.println("삭제된 연산 결과: " + resultList.remove(0));
